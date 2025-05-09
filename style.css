@@ -8,8 +8,8 @@
 body {
     font-family: 'Segoe UI', sans-serif;
     font-size: 16px;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #fce4ec; /* Rosa claro para o fundo do body */
+    color: #555; /* Cinza escuro para o texto principal */
     line-height: 1.6;
 }
 
@@ -26,25 +26,78 @@ section {
 
 /* HEADER */
 header {
-    background-color: #0078d4;
-    color: white;
+    background-color: #f48fb1; /* Rosa principal para o cabeçalho */
+    color: #ffffff; /* Branco para o texto no cabeçalho */
     padding: 2rem 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 header p {
     font-size: 1.2rem;
     margin-top: 0.5rem;
+    color: #ffffff; /* Branco para o texto no cabeçalho */
+}
+
+/* NAVBAR */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #ffffff; /* Branco para os links do navbar */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fce4ec; /* Rosa claro no hover */
+}
+
+/* HERO SECTION */
+#hero {
+    background-color: #f8bbd0; /* Rosa claro para o Hero */
+    color: #424242; /* Cinza escuro para o texto no Hero */
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* ABOUT SECTION */
+#about {
+    background-color: #ffffff; /* Branco para a secção About */
+}
+
+/* SERVICES SECTION */
+#services {
+    background-color: #c8e6c9; /* Verde pastel para a secção Services */
 }
 
 /* FOOTER */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #a5d6a7; /* Verde pastel para o rodapé */
+    color: #ffffff; /* Branco para o texto no rodapé */
     text-align: center;
     padding: 1rem 0;
     font-size: 0.9rem;
@@ -54,8 +107,8 @@ footer {
 /* UTILITÁRIOS */
 .btn {
     display: inline-block;
-    background-color: #0078d4;
-    color: white;
+    background-color: #f48fb1; /* Rosa principal para os botões */
+    color: #ffffff;
     padding: 0.75rem 1.5rem;
     border: none;
     text-decoration: none;
@@ -64,5 +117,5 @@ footer {
 }
 
 .btn:hover {
-    background-color: #005fa3;
+    background-color: #e91e63; /* Rosa mais escuro no hover */
 }
