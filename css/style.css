@@ -133,81 +133,107 @@ nav a:hover {
     /* Outro tom de verde claro */
 }
 
-/* Adicionar estilos para as outras secções (Preços, etc.) */
-
-#services-page .service {
-    margin-bottom: 2rem;
-    padding: 1.5rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+/* ÍCONES EM BOLHA */
+.bolha {
+    width: 100px;
+    height: 100px;
+    background-color: #fce4ec; /* Rosa pastel */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem auto;
+    box-shadow: 0 0 10px rgba(248, 187, 208, 0.6);
+    transition: transform 0.3s ease;
 }
 
-#services-page .service h3 {
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
-    color: #f48fb1;
-    /* Rosa para os títulos dos serviços */
+.bolha:hover {
+    transform: scale(1.05);
 }
 
-#services-page .service p {
-    color: #555;
+.icon {
+    width: 48px;
+    height: 48px;
 }
-
-#pricing {
-    background-color: #f9f9f9;
+#services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    background-color: #f0f8e0;
     padding: 4rem 0;
 }
 
-#pricing h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    text-align: center;
-    color: #444;
-}
-
-#pricing p {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: #777;
-}
-
-.pricing-option {
-    margin-bottom: 2rem;
+.service-item {
+    background-color: white;
+    border-radius: 1rem;
     padding: 2rem;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
 }
 
-.pricing-option h3 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #f48fb1;
-    /* Rosa para os títulos */
+.service-item:hover {
+    transform: translateY(-4px);
 }
 
-.pricing-option h4 {
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    color: #777;
-    font-weight: normal;
-}
-
-.price-item {
+.bolha {
+    width: 80px;
+    height: 80px;
+    background-color: #fce4ec;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
     display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #eee;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(248, 187, 208, 0.5);
 }
 
-.price-item:last-child {
-    border-bottom: none;
+.icon {
+    width: 40px;
+    height: 40px;
+}
+.service-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.price-item .item {
+.service-intro h2 {
+    font-size: 2rem;
+    color: #e91e63;
+    margin-bottom: 1rem;
+}
+
+.service-intro p {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.service-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.service-header h2 {
+    font-size: 2.2rem;
+    color: #e91e63;
+    margin-bottom: 0.5rem;
+}
+
+.subheading {
+    font-size: 1.2rem;
     color: #555;
+    max-width: 700px;
+    margin: 0 auto;
 }
 
-.price-item .price {
-    color: #444;
-    font-weight: bold;
+.mapa-wrapper {
+    margin-top: 2rem;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }

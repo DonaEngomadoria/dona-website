@@ -1,10 +1,37 @@
 Folder PATH listing
 Volume serial number is D43A-FB7A
 D:.
+|   index.html
+|   netlify.toml
+|   precos.html
+|   README.md
+|   servicos.html
+|   tree_file.txt
+|   
 +---.vs
-¦   +---dona_website
-¦       +---FileContentIndex
-¦       +---v17
+|   |   slnx.sqlite
+|   |   VSWorkspaceState.json
+|   |   
+|   \---dona_website
+|       +---FileContentIndex
+|       |       8c0e7156-c4ca-438a-9b6d-38a83f938a4b.vsidx
+|       |       
+|       \---v17
+|               DocumentLayout.json
+|               
 +---assets
-¦   +---imagens
-+---css
+|   +---icones
+|   |       costura.png
+|   |       engomadoria.png
+|   |       gestao.png
+|   |       higienizacao.png
+|   |       lavagem_seco.png
+|   |       lavandaria.png
+|   |       manutencao.png
+|   |       planos.png
+|   |       recolhas.png
+|   |       
+|   \---imagens
+\---css
+        style.css
+        
